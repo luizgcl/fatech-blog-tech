@@ -1,0 +1,167 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Verdana";
+}
+
+/*Header*/
+.title {
+    font-family: "LEMON MILK";
+    text-transform: uppercase;
+    font-weight: 500;
+    color:black;
+    padding: 20px;
+    font-size: 1rem;
+    background-color: rgba(247, 184, 68, 0.699);
+
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: left;
+}
+
+.title p {
+    margin-left: 10px;
+}
+
+/*Container*/
+
+.container{
+    width:auto;
+    max-width: 1024px;
+    margin:auto;
+}
+
+/*Image*/
+.image img{
+    display: block;
+    width: 90px;
+    height: 90px;
+
+    border-radius: 50%;
+}
+
+.image {
+    display: inline-block;
+    padding: 4px;
+
+    margin: 10px;
+
+    background: linear-gradient(130deg, #a45d, rgba(218, 100, 22, 0.867));
+    background-size: 200% 200%;
+    border-radius: 50%;
+    animation: animated-gradient 2s linear infinite;
+}
+
+.anotherimg{
+    width:100%;
+    display:flex;
+    justify-content: center;
+}
+.anotherimg img{
+    width:60%;
+
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+@keyframes animated-gradient{
+    25%{
+      background-position: left bottom;
+    }
+    50%{
+      background-position: right bottom;
+    }
+    75%{
+      background-position: right top;
+    }
+    100%{
+      background-position: left top;
+    }
+}
+/*Image*/
+
+.text-title h2 {
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+/*Description*/
+
+.public h2{
+    padding:5px;
+    margin:5px;
+    padding-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight:bold;
+    font-size:1.4rem;
+}
+
+.data-publicação{
+    font-style: italic;
+    font-size:1rem;
+    padding:20px;
+    margin:10px;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+.public{
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:500;
+    line-height: 1.8rem;
+    word-spacing: 0.01em;
+    font-size:1rem;
+}
+
+/*Footer*/
+
+.footer {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+
+    border-top: 1px solid rgba(218, 100, 22, 0.867);
+    border-bottom: 1px solid rgba(218, 100, 22, 0.867);
+}
+
+.footer a {
+    text-decoration: none;
+    color: #a45d;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.footer a:hover {
+    color: rgba(218, 100, 22, 0.867);
+}
+
+.publict-at {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+
+    padding: 20px;
+
+    align-items: center;
+    justify-content: center;
+
+    font-weight:500;
+    line-height: 1.8rem;
+    
+    background: rgba(247, 184, 68, 0.699);
+}
+
+
